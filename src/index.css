@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+
+
+body {
+    font-family: 'Merienda', cursive;
+}
+
+li {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+}
