@@ -1,8 +1,20 @@
 {
   "name": "portfolio-web-site",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "This is a portfolio website app for Rosen Nenov",
+  "homepage": "https://github.com/roskonenov/portfolio-web-site#readme",
+  "bugs": {
+    "url": "https://github.com/roskonenov/portfolio-web-site/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roskonenov/portfolio-web-site.git"
+  },
+  "license": "ISC",
+  "author": "Rosen Nenov",
   "type": "module",
+  "main": "dist",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
