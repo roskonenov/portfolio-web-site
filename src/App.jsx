@@ -8,14 +8,14 @@ import Work from "./components/Work"
 function App() {
 
   return (
-    <>
+    <div className="bg-[#335c67]">
       <Navbar />
       <Home />
       <About />
       <Skills />
       <Work />
       <Contact />
-    </>
+    </div>
   )
 }
 
