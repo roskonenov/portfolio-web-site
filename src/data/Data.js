@@ -1,62 +1,75 @@
+import Java from '../assets/java.png';
+import Spring from '../assets/spring.png';
+import MySql from '../assets/mysql.png';
+import ThymeLeaf from '../assets/thymeleaf.png';
+import HTML from '../assets/html.png';
+import CSS from '../assets/css.png';
+import JavaScript from '../assets/javascript.png';
+import React from '../assets/react.png';
+import TailWind from '../assets/tailwind.png';
+import GitHub from '../assets/github.png';
+import GCloud from '../assets/gcloud.png';
+import Firebase from '../assets/firebase.png';
+
 export const skillCardsData = [
     {
         id: 1,
         name: 'JAVA',
-        icon: '/src/assets/java.png'
+        icon: Java
     },
     {
         id: 2,
         name: 'SPRING',
-        icon: '/src/assets/spring.png'
+        icon: Spring
     },
     {
         id: 3,
         name: 'MYSQL',
-        icon: '/src/assets/mysql.png'
+        icon: MySql
     },
     {
         id: 4,
         name: 'THYMELEAF',
-        icon: '/src/assets/thymeleaf.png'
+        icon: ThymeLeaf
     },
     {
         id: 5,
         name: 'HTML',
-        icon: '/src/assets/html.png'
+        icon: HTML
     },
     {
         id: 6,
         name: 'CSS',
-        icon: '/src/assets/css.png'
+        icon: CSS
     },
     {
         id: 7,
         name: 'JAVASCRIPT',
-        icon: '/src/assets/javascript.png'
+        icon: JavaScript
     },
     {
         id: 8,
         name: 'REACT',
-        icon: '/src/assets/react.png'
+        icon: React
     },
     {
         id: 9,
         name: 'TAILWIND',
-        icon: '/src/assets/tailwind.png'
+        icon: TailWind
     },
     {
         id: 10,
         name: 'GITHUB',
-        icon: '/src/assets/github.png'
+        icon: GitHub
     },
     {
         id: 11,
         name: 'GCLOUD',
-        icon: '/src/assets/gcloud.png'
+        icon: GCloud
     },
     {
         id: 12,
         name: 'FIREBASE',
-        icon: '/src/assets/firebase.png'
+        icon: Firebase
     },
 ];
