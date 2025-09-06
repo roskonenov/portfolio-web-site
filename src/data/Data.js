@@ -11,6 +11,9 @@ import GitHub from '../assets/github.png';
 import GCloud from '../assets/gcloud.png';
 import Firebase from '../assets/firebase.png';
 
+import TravelNest from '../assets/TravelNest.png';
+import ComicWorld from '../assets/ComicWorld.png';
+
 export const skillCardsData = [
     {
         id: 1,
@@ -73,3 +76,28 @@ export const skillCardsData = [
         icon: Firebase
     },
 ];
+
+export const projectInfo = [
+    {
+        id: 1,
+        backgroundImage: ComicWorld,
+        appType: 'React JS Application',
+        demoLink: 'https://comic-world-457306.web.app/',
+        codeLink: 'https://github.com/roskonenov/ComicWorld',
+        title: 'Comic World',
+        sebTilte: 'Single-Page Application (React, Firebase, JavaScript, HTML/CSS)',
+        description: 'A full-stack ReactJS single-page application where users can explore, buy, and read comics. It implements user authentication, dynamic routing, state management, RESTful API integration, and full CRUD operations. Admins can manage content, while users can rate, comment, and track their personal comic collection. It ensures secure access control, optimized UI with React Router v7, and enhanced UX with React Toastify. It also manages the backend via a REST API and SoftUni`s practice server.',
+        mySkill: 'This project demonstrates my ability to architect scalable, interactive web applications with modern technologies and strong attention to detail.'
+    },
+    {
+        id: 2,
+        backgroundImage: TravelNest,
+        appType: 'Spring Boot Application',
+        demoLink: 'https://travelnest-production.up.railway.app',
+        codeLink: 'https://github.com/roskonenov/TravelNest',
+        title: 'Travel Nest',
+        sebTilte: 'Full- Stack Web Application(Java, Spring Boot, MySQL, Thymeleaf, REST APIs)',
+        description: 'Travel Nest is a full - stack booking platform that allows users to reserve accommodations, rent cars, and purchase tickets for attractions and events.The application is built with Java and Spring Boot on the backend, using MySQL for data persistence and Thymeleaf for server - side rendering.It follows an MVC architecture and integrates REST APIs to ensure scalability and modularity.',
+        mySkill: 'This project demonstrates my ability to design and implement end-to-end solutions, combining backend logic, database integration, and user-facing features in a cohesive system.'
+    }
+]
