@@ -1,5 +1,5 @@
 import React from 'react';
-import { skillCardsData } from '../data/Data.js'
+import { skillCardsData } from '../../data/Data.js'
 import SkillCard from './SkillCard.jsx';
 
 const Skills = () => {

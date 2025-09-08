@@ -1,5 +1,5 @@
 import React from 'react';
-import { projectInfo } from '../data/Data.js'
+import { projectInfo } from '../../data/Data.js'
 import ProjectCard from './ProjectCard.jsx';
 
 
