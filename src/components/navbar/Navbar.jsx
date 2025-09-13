@@ -9,9 +9,10 @@ import { navLinks } from '../../constant/constant.js'
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
+    const navToggle = nav ? 'translate-x-0' : 'translate-x-[+100%]'
 
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#e09f3e] text-[#9e2a2b] z-50'>
+        <div className='fixed w-full md:h-[80px] h-[50px] flex justify-between items-center px-4 bg-[#e09f3e] text-[#9e2a2b] z-50'>
             <div>
                 <img src={Logo} alt="Logo image" style={{ height: '50px' }} />
             </div>
@@ -27,37 +28,24 @@ const Navbar = () => {
             </ul>
 
             {/* Hamburger */}
-            <div onClick={handleClick} className='md:hidden z-10 cursor-pointer'>
+            <div onClick={handleClick} className='md:hidden z-11 cursor-pointer'>
                 {!nav ? <FaBars /> : <FaTimes />}
             </div>
 
+            {/* Overlay */}
+            <div className={`fixed ${navToggle} transform transition-all duration-300 inset-0 z-9 bg-black opacity-70 w-full h-screen`}
+            onClick={handleClick}>
+            </div>
+
             {/* Mobile Menu */}
-            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#e09f3e] flex flex-col justify-center items-center'}>
-                <li className='navbar-link py-6 text-4xl duration-50'>
-                    <Link onClick={handleClick} to='home' smooth={true} duration={500} >
-                        Home
-                    </Link>
-                </li>
-                <li className='navbar-link py-6 text-4xl'>
-                    <Link onClick={handleClick} to='about' smooth={true} duration={500} >
-                        About
-                    </Link>
-                </li>
-                <li className='navbar-link py-6 text-4xl'>
-                    <Link onClick={handleClick} to='skills' smooth={true} duration={500} >
-                        Skills
-                    </Link>
-                </li>
-                <li className='navbar-link py-6 text-4xl'>
-                    <Link onClick={handleClick} to='work' smooth={true} duration={500} >
-                        Work
-                    </Link>
-                </li>
-                <li className='navbar-link py-6 text-4xl'>
-                    <Link onClick={handleClick} to='contact' smooth={true} duration={500} >
-                        Contact
-                    </Link>
-                </li>
+            <ul className={`fixed ${navToggle} transform transition-all duration-300 delay-100 top-0 right-0 sm:w-[60%] w-[80%] h-screen z-10 bg-[#e09f3e] flex flex-col justify-center items-center`}>
+                {navLinks.map(navLink =>
+                    <li key={navLink.id} className='navbar-link py-6 text-4xl duration-50 border-b-[1.5px] border-[#9e2a2b]'>
+                        <Link onClick={handleClick} to={navLink.url} smooth={true} duration={500} >
+                            {navLink.label}
+                        </Link>
+                    </li>
+                )}
             </ul>
 
             {/* Social Icons */}
