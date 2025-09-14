@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard.jsx';
 
 const Work = () => {
     return (
-        <div name='work' className='w-full h-full text-[#e09f3e] bg-[#335c67]'>
+        <div name='work' className='w-full h-screen text-[#e09f3e] bg-[#335c67]'>
             <div className='max-w-[1000px] mx-auto p-4 md:pl-16 pt-10 flex flex-col justify-center w-full h-full'>
                 <div className='pb-8 mt-8'>
                     <p className='text-4xl font-bold inline border-b-4 text-[#fff3b0] border-[#9e2a2b]'>Work</p>

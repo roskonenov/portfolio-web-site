@@ -26,7 +26,7 @@ const Navbar = () => {
             <ul className='hidden md:flex'>
                 {navLinks.map(navLink =>
                     <li key={navLink.id} className='navbar-link'>
-                        <Link to={navLink.url} smooth={true} duration={500} >
+                        <Link to={navLink.url} smooth={true} duration={700} >
                             <p className='nav__link'>{navLink.label}</p>
                         </Link>
                     </li>)}

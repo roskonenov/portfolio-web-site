@@ -11,7 +11,7 @@ const Home = () => {
                 <p className='text-[#9e2a2b] sm:text-2xl'>Hi, my name is</p>
                 <h1 className='text-bg text-4xl sm:text-7xl font-bold'>Rosen Nenov</h1>
                 <h2 className='text-bg text-4xl sm:text-7xl font-bold'>I'm a Full Stack Developer</h2>
-                <p className='text-[#e09f3e] text-sm sm:text-lg py-4 max-w-[700px]'>I am motivated and detail-oriented with a strong foundation in Java (Spring Boot) and modern front-end technologies like React and JavaScript. Experienced in building real-world applications, following clean code principles and best practices in both back-end and front-end development. Skilled in working with relational databases (MySQL) and designing RESTful APIs. Passionate about continuous learning and eager to contribute to innovative software projects in a collaborative team environment.</p>
+                <p className='text-[#e09f3e] text-sm sm:text-lg py-4 max-w-[700px]'>I have strong experience in <strong>Java</strong> and <strong>React</strong>. I build scalable, user- friendly web applications and have worked on both frontend and backend projects using <strong>Spring, MySQL</strong>, and modern <strong>JavaScript</strong>. Passionate about clean code, teamwork, and continuous learning. Looking for a junior developer position where I can grow and deliver impactful solutions.</p>
                 <div>
                     <Link to='work' smooth={true} duration={500} className='relative text-[#fff3b0] group border-2 px-6 py-3 pr-9 my-2 mx-auto inline-flex items-center hover:bg-[#9e2a2b] hover:border-[#9e2a2b] cursor-pointer'>View Work
                         <span className='absolute left-25 group-hover:rotate-90 group-hover:ml-[+4px] group-hover:mt-[-7px] duration-300'>
