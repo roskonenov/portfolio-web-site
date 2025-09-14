@@ -33,7 +33,7 @@ export const navLinks = [
 export const socialIconsData = [
     {
         id: 1,
-        bgColor: '#0a66c2',
+        bgColor: 'bg-[#0a66c2]',
         link: 'https://www.linkedin.com/in/rosen-nenov-2ab7262b6/',
         label: 'LinkedIn',
         icon: FaLinkedin,
@@ -41,7 +41,7 @@ export const socialIconsData = [
     },
     {
         id: 2,
-        bgColor: '#212830',
+        bgColor: 'bg-[#212830]',
         link: 'https://github.com/roskonenov',
         label: 'GitHub',
         icon: FaGithub,
@@ -49,7 +49,7 @@ export const socialIconsData = [
     },
     {
         id: 3,
-        bgColor: '#6fc2b0',
+        bgColor: 'bg-[#6fc2b0]',
         link: 'contact',
         label: 'Email',
         icon: HiOutlineMail,
@@ -57,7 +57,7 @@ export const socialIconsData = [
     },
     {
         id: 4,
-        bgColor: '#565f69',
+        bgColor: 'bg-[#565f69]',
         link: 'https://drive.google.com/file/d/1mxefq8kM4MUeGtaQ1gGH_1TYIfqX9UwG/view?usp=sharing',
         label: 'Resume',
         icon: BsFillPersonLinesFill,
