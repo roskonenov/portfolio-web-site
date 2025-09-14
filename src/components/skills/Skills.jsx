@@ -13,10 +13,11 @@ const Skills = () => {
                 <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
                     {skillCardsData.map(skill =>
                         <div
+                            key={skill.id}
                             data-aos={skill.id % 2 == 0 ? 'fade-up' : 'fade-down'}
                             data-aos-delay={`${skill.id * 100}`} >
                             <SkillCard
-                                key={skill.id}
+
                                 skillData={skill} />
                         </div>
                     )}

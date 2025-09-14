@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa'
 import Logo from '../../assets/logo.png';
 import { Link } from 'react-scroll';
@@ -10,11 +10,16 @@ const Navbar = () => {
     const mobileNavToggle = mobileNavOpen ? 'translate-x-0' : 'translate-x-[+100%]';
     const [navBg, setNavBg] = useState(false);
 
-    const navBgHandler = () => {
-        window.scrollY >= 50 ? setNavBg(true) : setNavBg(false);
-    }
+    useEffect(() => {
+        const navBgHandler = () => {
+            window.scrollY >= 50 ? setNavBg(true) : setNavBg(false);
+        }
 
-    window.addEventListener('scroll', navBgHandler);
+        window.addEventListener('scroll', navBgHandler);
+
+        return () => window.removeEventListener('scroll', navBgHandler);
+    }, []);
+
 
     return (
         <div className={`fixed w-full md:h-[80px] h-[50px] flex justify-between items-center px-4 ${navBg ? 'bg-linear-to-r from-[#e09f3e] to-[#fff3b0]' : 'bg-none'} transition-colors duration-150 text-[#9e2a2b] z-50`}>

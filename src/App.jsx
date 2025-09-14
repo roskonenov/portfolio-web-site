@@ -13,10 +13,11 @@ import 'aos/dist/aos.css';
 
 function App() {
 
-  useEffect(() => {
+  useEffect(() => {   
     const initAOS = async () => {
       await import('aos');
       AOS.init({
+        disable: 'mobile',
         duration: 1000,
         easing: 'ease',
         once: true,
