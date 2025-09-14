@@ -5,7 +5,7 @@ import SkillCard from './SkillCard.jsx';
 const Skills = () => {
     return (
         <div name='skills' className='w-full md:h-screen bg-[#335c67] text-[#e09f3e]'>
-            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+            <div className='max-w-[1000px] mx-auto p-4 md:pl-16 flex flex-col justify-center w-full h-full'>
                 <div>
                     <p className='text-4xl font-bold inline border-b-4 border-[#9e2a2b] text-[#fff3b0]'>Skills</p>
                     <p className='py-4'>This are the technologies I've experience with</p>

@@ -1,3 +1,7 @@
+import { HiOutlineMail } from 'react-icons/hi';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+
 export const navLinks = [
     {
         id: 1,
@@ -23,5 +27,36 @@ export const navLinks = [
         id: 5,
         url: 'contact',
         label: 'Contact'
+    },
+];
+
+export const socialIconsData = [
+    {
+        id: 1,
+        bgColor: '#0a66c2',
+        link: 'https://www.linkedin.com/in/rosen-nenov-2ab7262b6/',
+        label: 'LinkedIn',
+        icon: FaLinkedin,
+    },
+    {
+        id: 2,
+        bgColor: '#212830',
+        link: 'https://github.com/roskonenov',
+        label: 'GitHub',
+        icon: FaGithub,
+    },
+    {
+        id: 3,
+        bgColor: '#6fc2b0',
+        link: 'contact',
+        label: 'Email',
+        icon: HiOutlineMail,
+    },
+    {
+        id: 4,
+        bgColor: '#565f69',
+        link: 'https://drive.google.com/file/d/1mxefq8kM4MUeGtaQ1gGH_1TYIfqX9UwG/view?usp=sharing',
+        label: 'Resume',
+        icon: BsFillPersonLinesFill,
     },
 ];
