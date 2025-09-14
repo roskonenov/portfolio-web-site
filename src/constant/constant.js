@@ -37,6 +37,7 @@ export const socialIconsData = [
         link: 'https://www.linkedin.com/in/rosen-nenov-2ab7262b6/',
         label: 'LinkedIn',
         icon: FaLinkedin,
+        anchorType: 'a',
     },
     {
         id: 2,
@@ -44,6 +45,7 @@ export const socialIconsData = [
         link: 'https://github.com/roskonenov',
         label: 'GitHub',
         icon: FaGithub,
+        anchorType: 'a',
     },
     {
         id: 3,
@@ -51,6 +53,7 @@ export const socialIconsData = [
         link: 'contact',
         label: 'Email',
         icon: HiOutlineMail,
+        anchorType: 'Link',
     },
     {
         id: 4,
@@ -58,5 +61,6 @@ export const socialIconsData = [
         link: 'https://drive.google.com/file/d/1mxefq8kM4MUeGtaQ1gGH_1TYIfqX9UwG/view?usp=sharing',
         label: 'Resume',
         icon: BsFillPersonLinesFill,
+        anchorType: 'a',
     },
 ];
