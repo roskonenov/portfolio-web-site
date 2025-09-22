@@ -13,6 +13,8 @@ import Firebase from '../assets/firebase.png';
 
 import TravelNest from '../assets/TravelNest.png';
 import ComicWorld from '../assets/ComicWorld.png';
+import ToDoList from '../assets/ToDoList.png';
+
 
 export const skillCardsData = [
     {
@@ -97,7 +99,18 @@ export const projectInfo = [
         codeLink: 'https://github.com/roskonenov/TravelNest',
         title: 'Travel Nest',
         subTilte: 'Full- Stack Web Application(Java, Spring Boot, MySQL, Thymeleaf, REST APIs)',
-        description: 'Travel Nest is a full - stack booking platform that allows users to reserve accommodations, rent cars, and purchase tickets for attractions and events.The application is built with Java and Spring Boot on the backend, using MySQL for data persistence and Thymeleaf for server - side rendering.It follows an MVC architecture and integrates REST APIs to ensure scalability and modularity.',
+        description: 'Travel Nest is a full - stack booking platform that allows users to reserve accommodations, rent cars, and purchase tickets for attractions and events. The application is built with Java and Spring Boot on the backend, using MySQL for data persistence and Thymeleaf for server - side rendering. It follows an MVC architecture and integrates REST APIs to ensure scalability and modularity.',
         mySkill: 'This project demonstrates my ability to design and implement end-to-end solutions, combining backend logic, database integration, and user-facing features in a cohesive system.'
+    },
+    {
+        id: 3,
+        backgroundImage: ToDoList,
+        appType: 'Spring Boot Application',
+        demoLink: 'https://todo-list-with-spring-and-thymeleaf.onrender.com',
+        codeLink: 'https://github.com/roskonenov/Todo-List-With-Spring-and-Thymeleaf',
+        title: 'Todo List',
+        subTilte: 'Full- Stack Web Application(Java, Spring Boot, MySQL, Thymeleaf, Bootstrap, JUnit 5, Mockito)',
+        description: 'TodoList with Spring Boot, Thymeleaf, and Bootstrap is a full-stack web application designed for managing daily tasks. Users can easily create new tasks, mark them as completed, or delete them. The frontend is built with Thymeleaf and styled using Bootstrap, providing a clean and responsive interface. The backend is powered by Spring Boot and connects to a MySQL database for persistent task storage. The project follows the MVC architecture and includes unit and integration tests to ensure reliability and maintainability.',
+        mySkill: 'Through this project, I gained practical experience in backend development with Spring Boot, managing data with MySQL using JPA and Hibernate, and integrating dynamic content in the frontend using Thymeleaf and Bootstrap. I also enhanced my testing skills with JUnit 5 and Mockito, explored containerization with Docker, and strengthened my overall understanding of building robust and maintainable full-stack applications.'
     }
 ]

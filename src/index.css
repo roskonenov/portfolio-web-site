@@ -29,6 +29,11 @@ li {
         0 0 151px #fff3b0;
 }
 
+.fade_overflow {
+    -webkit-mask-image: linear-gradient(180deg, #000 80%, transparent);
+    mask-image: linear-gradient(180deg, #000 80%, transparent);
+}
+
 @layer components {
 
     .nav__link {
