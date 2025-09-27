@@ -14,6 +14,7 @@ import Firebase from '../assets/firebase.png';
 import TravelNest from '../assets/TravelNest.png';
 import ComicWorld from '../assets/ComicWorld.png';
 import ToDoList from '../assets/ToDoList.png';
+import NodeJsMicroservices from '../assets/NodeJs-Microservices.png'
 
 
 export const skillCardsData = [
@@ -109,8 +110,19 @@ export const projectInfo = [
         demoLink: 'https://todo-list-with-spring-and-thymeleaf.onrender.com',
         codeLink: 'https://github.com/roskonenov/Todo-List-With-Spring-and-Thymeleaf',
         title: 'Todo List',
-        subTilte: 'Full- Stack Web Application(Java, Spring Boot, MySQL, Thymeleaf, Bootstrap, JUnit 5, Mockito)',
+        subTilte: 'Full-Stack Web Application(Java, Spring Boot, MySQL, Thymeleaf, Bootstrap, JUnit 5, Mockito)',
         description: 'TodoList with Spring Boot, Thymeleaf, and Bootstrap is a full-stack web application designed for managing daily tasks. Users can easily create new tasks, mark them as completed, or delete them. The frontend is built with Thymeleaf and styled using Bootstrap, providing a clean and responsive interface. The backend is powered by Spring Boot and connects to a MySQL database for persistent task storage. The project follows the MVC architecture and includes unit and integration tests to ensure reliability and maintainability.',
         mySkill: 'Through this project, I gained practical experience in backend development with Spring Boot, managing data with MySQL using JPA and Hibernate, and integrating dynamic content in the frontend using Thymeleaf and Bootstrap. I also enhanced my testing skills with JUnit 5 and Mockito, explored containerization with Docker, and strengthened my overall understanding of building robust and maintainable full-stack applications.'
+    },
+    {
+        id: 4,
+        backgroundImage: NodeJsMicroservices,
+        appType: 'Node.JS Application',
+        demoLink: '',
+        codeLink: 'https://github.com/roskonenov/nodejs-microservices',
+        title: 'NodeJS Microservices',
+        subTilte: 'Back-End Application(Node.js, MongoDB, and RabbitMQ, orchestrated using Docker Compose)',
+        description: 'A Back-end microservices project built with Node.js, MongoDB, and RabbitMQ, orchestrated via Docker Compose. It includes user management, task handling with event publishing, and a notification service that listens to RabbitMQ messages. The system uses MongoDB for data storage and RabbitMQ for inter-service communication, with all services containerized for easy deployment.',
+        mySkill: 'Through this project, I gained hands-on experience with Node.js for building scalable microservices, MongoDB for database management, and RabbitMQ for asynchronous messaging and event-driven architecture. I improved my skills in Docker and Docker Compose for containerization and service orchestration, as well as in designing RESTful APIs, handling inter-service communication, and managing full-stack microservices deployments.'
     }
 ]

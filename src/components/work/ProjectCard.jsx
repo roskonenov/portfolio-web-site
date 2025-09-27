@@ -12,9 +12,10 @@ const ProjectCard = ({ project, isExpanded, toggleExpand }) => {
                             {project.appType}
                         </span>
                         <div data-aos='zoom-out' data-aos-delay={`${project.id * 150}`} className='pt-8 text-center'>
-                            <a className='text-center rounded-lg px-4 py-3 m-2 lg:bg-[#fff3b0] bg-[#335c67]  hover:bg-[#9e2a2b] hover:border-[#9e2a2b] hover:text-[#fff3b0] duration-100 lg:text-[#335c67] text-[#fff3b0] border-2 lg:border-none font-bold text-lg' href={`${project.demoLink}`} target='_blank'>
+                            {project.demoLink && <a className='text-center rounded-lg px-4 py-3 m-2 lg:bg-[#fff3b0] bg-[#335c67]  hover:bg-[#9e2a2b] hover:border-[#9e2a2b] hover:text-[#fff3b0] duration-100 lg:text-[#335c67] text-[#fff3b0] border-2 lg:border-none font-bold text-lg' href={`${project.demoLink}`} target='_blank'>
                                 Demo
-                            </a>
+                            </a>}
+
                             <a className='text-center rounded-lg px-4 py-3 m-2 lg:bg-[#fff3b0] bg-[#335c67]  hover:bg-[#9e2a2b] hover:border-[#9e2a2b] hover:text-[#fff3b0] duration-100 lg:text-[#335c67] text-[#fff3b0] border-2 lg:border-none font-bold text-lg' href={`${project.codeLink}`} target='_blank'>
                                 Code
                             </a>
