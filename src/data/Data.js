@@ -90,8 +90,8 @@ export const projectInfo = [
         codeLink: 'https://github.com/roskonenov/ECommerce-Project-With-Spring-Boot-And-React',
         title: 'E-Commerce',
         subTilte: 'Single-Page Application (React, Spring Boot, PostgreSQL, GCP, Firebase, JavaScript, Tailwind)',
-        description: 'This Project is a full-stack e-commerce platform using Spring Boot, PostgreSQL, React, and Redux. Implemented role-based access control with separate Admin and Seller dashboards. Sellers can manage products and customer orders, while administrators can also manage users and product categories. Built a responsive frontend with React and Redux for state management and dynamic UI components, and implemented backend services with REST APIs and database integration using JPA/Hibernate.',
-        mySkill: 'This project demonstrates full-stack development skills through building an e-commerce platform using Spring Boot, PostgreSQL, React, and Redux. It implements role-based access control with dedicated Admin and Seller panels for managing products, orders, users, and categories. The project showcases experience with REST API development, relational database design, frontend state management, and frontend–backend integration.'
+        description: 'This Project is complete e-commerce application using Spring Boot backend with React frontend. Implemented user authentication, product management, shopping cart, and order processing with role-based access for customers, sellers, and admins.',
+        mySkill: 'This project demonstrates full-stack development skills. Advanced Security & Payment Processing: Integrated enterprise-level authentication using Spring Security with JWT tokens and role-based access control (RBAC). Implemented secure payment gateway integration with Stripe API. Scalable Database Architecture: Designed complex entity relationships using JPA/Hibernate across PostgreSQL databases. Implemented advanced features including pagination, sorting and search..'
     },
     {
         id: 1,
