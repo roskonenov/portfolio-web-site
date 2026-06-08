@@ -13,15 +13,19 @@ const About = () => {
                     </div>
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8'>
-                    <div  data-aos='fade-up' data-aos-delay='100' className='text-bg text-4xl font-bold col-span-2'>
+                    <div data-aos='fade-up' data-aos-delay='100' className='text-bg text-4xl font-bold col-span-2'>
                         <p>Hi, I'm Rosen, nice to meet you. Please take a look around.</p>
                     </div>
-                    <div  data-aos='zoom-in' data-aos-delay='200' className='h-fit bg-cover bg-center col-span-2 sm:col-span-1 border-3 border-[#9e2a2b] rounded-4xl overflow-hidden'>
-                        <img  src={graduationPicture} alt="Graduation picture" />
+                    <div data-aos='zoom-in' data-aos-delay='200' className='h-fit bg-cover bg-center col-span-2 sm:col-span-1 border-3 border-[#9e2a2b] rounded-4xl overflow-hidden'>
+                        <img src={graduationPicture} alt="Graduation picture" />
                     </div>
-                    <p data-aos='zoom-out' data-aos-delay='300' className='col-span-2 sm:col-span-1 text-sm md:text-[1rem] lg:text-lg'>
-                        I am motivated and detail-oriented with a strong foundation in <strong>Java (Spring Boot)</strong> and modern front-end technologies like <strong>React</strong> and <strong>JavaScript</strong>. Experienced in building real-world applications, following clean code principles and best practices in both back-end and front-end development. Skilled in working with relational databases (<strong>MySQL</strong>) and designing <strong>RESTful APIs</strong>. Passionate about continuous learning and eager to contribute to innovative software projects in a collaborative team environment.
-                    </p>
+                    <div data-aos='zoom-out' data-aos-delay='300' className='col-span-2 sm:col-span-1 text-sm md:text-[1rem] lg:text-lg whitespace-pre-wrap'>
+                        Beyond technical skills, I bring <strong>curiosity</strong>, <strong>persistence</strong>, and a strong commitment to <strong>continuous learning</strong>. I enjoy tackling challenging problems, researching effective solutions, and refining my work until it meets a high standard of quality.
+
+                        I pay close attention to <strong>detail</strong>, value <strong>collaboration</strong>, and believe that great software is built through <strong>clear communication</strong> and <strong>shared knowledge</strong>. Through every project, I aim not only to improve the final product but also to grow as a developer by learning from new challenges and experiences.
+
+                        I am eager to contribute to a professional development team where I can apply my skills, learn from <strong>experienced engineers</strong>, and continue building software that creates <strong>real value for users</strong>.
+                    </div>
                 </div>
             </div>
         </div>

@@ -14,8 +14,9 @@ import Firebase from '../assets/firebase.png';
 import TravelNest from '../assets/TravelNest.png';
 import ComicWorld from '../assets/ComicWorld.png';
 import ToDoList from '../assets/ToDoList.png';
-import NodeJsMicroservices from '../assets/NodeJs-Microservices.png'
-import ECommerce from '../assets/ECommerce.png'
+import NodeJsMicroservices from '../assets/NodeJs-Microservices.png';
+import ECommerce from '../assets/ECommerce.png';
+import TravelBlog from '../assets/TravelBlog.png'
 
 
 export const skillCardsData = [
@@ -136,5 +137,17 @@ export const projectInfo = [
         subTilte: 'Back-End Application(Node.js, MongoDB, and RabbitMQ, orchestrated using Docker Compose)',
         description: 'A Back-end microservices project built with Node.js, MongoDB, and RabbitMQ, orchestrated via Docker Compose. It includes user management, task handling with event publishing, and a notification service that listens to RabbitMQ messages. The system uses MongoDB for data storage and RabbitMQ for inter-service communication, with all services containerized for easy deployment.',
         mySkill: 'Through this project, I gained hands-on experience with Node.js for building scalable microservices, MongoDB for database management, and RabbitMQ for asynchronous messaging and event-driven architecture. I improved my skills in Docker and Docker Compose for containerization and service orchestration, as well as in designing RESTful APIs, handling inter-service communication, and managing full-stack microservices deployments.'
+    },
+    {
+        id: 5,
+        backgroundImage: TravelBlog,
+        appType: 'Node.JS Application',
+        demoLink: 'https://blog-project-node-359483569081.europe-west4.run.app/',
+        codeLink: 'https://github.com/roskonenov/Blog-web-app',
+        title: 'Travel Blog App',
+        subTitle: 'Full-Stack Blog Platform (Node.js, Express, EJS, JWT Authentication)',
+        description: 'A full-stack travel blogging platform built with Node.js, Express, and EJS. The application allows users to register, log in with JWT-based authentication, create and manage blog posts, edit and delete their own content, search through articles, and view personalized post collections. Additional features include flash messages for user feedback, draft autosaving with localStorage, authorization middleware, and responsive server-side rendered pages.',
+        mySkill: 'Through this project, I strengthened my back-end development skills with Node.js and Express, implemented JWT authentication and authorization, built complete CRUD functionality, and gained practical experience with server-side rendering using EJS. I also worked with middleware architecture, form validation, flash messaging, search functionality, localStorage-based draft persistence, route protection, and overall application structure following common MVC-inspired practices.'
+
     }
 ]
