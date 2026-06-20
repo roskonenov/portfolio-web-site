@@ -109,7 +109,7 @@ export const projectInfo = [
         id: 2,
         backgroundImage: TravelNest,
         appType: 'Spring Boot Application',
-        demoLink: 'https://travelnest-production.up.railway.app',
+        demoLink: 'https://travelnest-518329365896.europe-west4.run.app',
         codeLink: 'https://github.com/roskonenov/TravelNest',
         title: 'Travel Nest',
         subTilte: 'Full- Stack Web Application(Java, Spring Boot, MySQL, Thymeleaf, REST APIs)',
