@@ -58,7 +58,7 @@ export const socialIconsData = [
     {
         id: 4,
         bgColor: 'bg-[#565f69]',
-        link: 'https://pixeldrain.com/api/filesystem/GGL38BTY',
+        link: 'https://pixeldrain.com/api/filesystem/eSSEPBud',
         label: 'Resume',
         icon: BsFillPersonLinesFill,
         anchorType: 'a',
