@@ -6,9 +6,8 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-
         emailjs.sendForm(
-            'service_3a3q9kc',
+            'service_3gnopkq',
             'template_m0mabxa',
             form.current,
             't8JRJcWQ_IFWYAqD9'
