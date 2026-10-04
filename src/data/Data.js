@@ -16,7 +16,8 @@ import ComicWorld from '../assets/ComicWorld.png';
 import ToDoList from '../assets/ToDoList.png';
 import NodeJsMicroservices from '../assets/NodeJs-Microservices.png';
 import ECommerce from '../assets/ECommerce.png';
-import TravelBlog from '../assets/TravelBlog.png'
+import TravelBlog from '../assets/TravelBlog.png';
+import SpringAI from '../assets/SpringAIProject.png';
 
 
 export const skillCardsData = [
@@ -83,7 +84,7 @@ export const skillCardsData = [
 ];
 
 export const projectInfo = [
-        {
+    {
         id: 0,
         backgroundImage: ECommerce,
         appType: 'React JS and Spring Boot Application',
@@ -148,6 +149,16 @@ export const projectInfo = [
         subTitle: 'Full-Stack Blog Platform (Node.js, Express, EJS, JWT Authentication)',
         description: 'A full-stack travel blogging platform built with Node.js, Express, and EJS. The application allows users to register, log in with JWT-based authentication, create and manage blog posts, edit and delete their own content, search through articles, and view personalized post collections. Additional features include flash messages for user feedback, draft autosaving with localStorage, authorization middleware, and responsive server-side rendered pages.',
         mySkill: 'Through this project, I strengthened my back-end development skills with Node.js and Express, implemented JWT authentication and authorization, built complete CRUD functionality, and gained practical experience with server-side rendering using EJS. I also worked with middleware architecture, form validation, flash messaging, search functionality, localStorage-based draft persistence, route protection, and overall application structure following common MVC-inspired practices.'
-
-    }
+    }, 
+    {
+        id: 6,
+        backgroundImage: SpringAI,                                                                                                      
+        appType: 'Spring Boot & React Application',
+        demoLink: 'https://spring-ai-service-183314.web.app/',
+        codeLink: 'https://github.com/roskonenov/SpringAIProject',
+        title: 'Spring AI Playground',
+        subTitle: 'Full-Stack Generative AI App (Java 21, Spring Boot 4, Spring AI, React, Docker, GCP Cloud Run)',
+        description: 'A full-stack generative AI application built with Java 21, Spring Boot, Spring AI, and React (Vite). The platform provides multi-modal AI capabilities, including an interactive AI chat with runtime parameter tuning, text- to - image generation using Stable Diffusion XL, an intelligent custom recipe creator with dietary and cuisine constraints, and an audio transcription service powered by OpenAI Whisper for uploaded voice files.The backend is containerized with Docker, deployed serverless on Google Cloud Run with automated scaling, while the modern React frontend is hosted on Firebase Hosting',                                        
+        mySkill: 'Through this project, I gained comprehensive practical experience integrating generative AI within the Java and Spring Boot ecosystem using Spring AI. I mastered OpenAI-compatible API abstractions via Together AI, applied prompt engineering techniques using PromptTemplate for structured domain - specific outputs, and implemented dynamic runtime steering with OpenAiChatOptions(temperature, model swapping).I expanded my backend skills to handle multimodal AI workloads—generating images and processing multipart audio streams with Whisper.Additionally, I strengthened my cloud and DevOps competencies by writing multi - stage Dockerfiles for Java 21 Alpine runtimes, configuring Google Cloud Run and Artifact Registry lifecycle policies, orchestrating automated CI / CD with GitHub Actions, and resolving distributed cross - origin(CORS) networking between Firebase and GCP'                                                                             
+        }, 
 ]
